@@ -3,29 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>plabel</string>
+	<string>pmakebottom</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UILabel *&lt;#name#&gt; = [[UILabel alloc] initWithFrame:&lt;#CGRect#&gt;];
-&lt;#name#&gt;.textColor = &lt;#UIColor#&gt;;
-&lt;#name#&gt;.font = &lt;#UIFont#&gt;;
-&lt;#name#&gt;.text = &lt;#NSString#&gt;;
-&lt;#name#&gt;.textAlignment = &lt;#NSTextAligment#&gt;;
-&lt;#name#&gt;.numberOfLines = &lt;#NSInteger#&gt;;</string>
+	<string>make.bottom.equalTo(&lt;#view#&gt;).offset(&lt;#margin#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>534D2068-12DE-45F3-8071-8F584825A74E</string>
+	<string>A879AB2D-D1D4-40F8-862F-7D271360A3A7</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>init UILabel</string>
+	<string>masonry of bottom</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>plabel</string>
+	<string>pmakebottom</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

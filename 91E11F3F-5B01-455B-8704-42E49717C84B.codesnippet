@@ -3,26 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>plabel</string>
+	<string>ifdebug</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UILabel *&lt;#name#&gt; = [[UILabel alloc] initWithFrame:&lt;#CGRect#&gt;];
-&lt;#name#&gt;.textColor = &lt;#UIColor#&gt;;
-&lt;#name#&gt;.font = &lt;#UIFont#&gt;;
-&lt;#name#&gt;.text = &lt;#NSString#&gt;;
-&lt;#name#&gt;.textAlignment = &lt;#NSTextAligment#&gt;;
-&lt;#name#&gt;.numberOfLines = &lt;#NSInteger#&gt;;</string>
+	<string>#if defined(DEBUG)||defined(_DEBUG)
+#else
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>534D2068-12DE-45F3-8071-8F584825A74E</string>
+	<string>91E11F3F-5B01-455B-8704-42E49717C84B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>init UILabel</string>
+	<string>ifdebug</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>plabel</string>
+	<string>ifdebug</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
